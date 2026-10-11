@@ -248,7 +248,8 @@ Ensemble-SINDy inclusion probabilities at SNR 20 are 1.00 for `∂²u/∂x²` an
 
 - Physics-informed training: add the weak-form wave-equation residual to the network loss.
 - A wider receptive field, for example a U-Net, instead of 7 × 7 patches.
-- SINDy for heterogeneous tissue and for the CSF boundary, including interface conditions.
+- SINDy or alternative system identification models for heterogeneous tissue and for the CSF boundary, including interface conditions.
+- Retraining on wave-fields that are simulated by system-identified equations.
 - Fluid (rather than soft-solid) CSF.
 - Multi-frequency data, which also makes extra terms such as `c·u` identifiable.
 - Extension to 3D and to real MRE data.
