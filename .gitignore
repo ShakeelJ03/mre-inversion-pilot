@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Generated data (several GB) and SynthSeg templates
+mre_project/
+example/
+
+# Large data files
+*.npz
+*.pkl
+*.nii
+*.nii.gz
+
+# figures/ is intentionally tracked
+!figures/
