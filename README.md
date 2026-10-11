@@ -1,5 +1,7 @@
 # MRE inversion with synthetic ground truth: a 2D pilot
 
+**Authors:** Shakeel and Soundharya Y
+
 This repository contains a 2D simulation study of stiffness estimation (inversion) in brain magnetic resonance elastography (MRE). Because every brain is synthetic, the true stiffness is known at every voxel. We use that to measure inversion error directly, to test whether physics-based checks can flag unreliable voxels, and to check whether sparse regression can recover the governing wave equation from the simulated wave fields.
 
 ## Summary
